@@ -42,7 +42,7 @@ Examples:
         (2 rows)
 </code></pre>
 <code><pre>
-	select COUNTRY, strcat(CITY using parameters seperator=' & ', maxsize=7) over (partition by COUNTRY) as CITIES from STRCATTEST.CITY;
+	select COUNTRY, strcat(CITY using parameters separator=' & ', maxsize=7) over (partition by COUNTRY) as CITIES from STRCATTEST.CITY;
          COUNTRY |          CITIES           
         ---------+---------------------------
          China   | Beijing & ...
