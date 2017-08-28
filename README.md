@@ -7,7 +7,7 @@ This is a Vertica User Defined Functions (UDF) for string strcat function, just 
 Syntax:
 ----------
 
-STRCAT ( string [using parameters seperator=':separator', maxsize=:maxsize] ) over(...)
+STRCAT ( string [using parameters separator=':separator', maxsize=:maxsize] ) over(...)
 
 Parameters:
 
